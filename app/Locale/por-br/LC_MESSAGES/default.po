@@ -1,0 +1,439 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-08-20 15:13-0300\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: /Controller/InternalController.php:25
+msgid "Digest group successfully created."
+msgstr "Grupo de resenha criado com sucesso."
+
+#: /Controller/InternalController.php:28
+msgid "An error has occurred and the digest group were not created."
+msgstr "Um erro ocorreu e o grupo de resenha não foi criado."
+
+#: /Controller/InternalController.php:44
+msgid "Digest group successfully saved."
+msgstr "Grupo de resenha salvo com sucesso."
+
+#: /Controller/InternalController.php:47
+msgid "An error has occurred and the digest group were not saved."
+msgstr "Um erro ocorreu e o grupo de resenha não foi salvo."
+
+#: /Controller/InternalController.php:63
+msgid "Digest group successfully deleted."
+msgstr "Grupo de resenha deletado com sucesso."
+
+#: /Controller/InternalController.php:84
+msgid "Digest successfully created."
+msgstr "Resenha criada com sucesso."
+
+#: /Controller/InternalController.php:87
+msgid "An error has ocurred and the digest were not created."
+msgstr "Um erro ocorreu e a resenha não foi criada."
+
+#: /Controller/InternalController.php:101
+msgid "The digest could not be found."
+msgstr "A resenha não foi encontrada."
+
+#: /Controller/InternalController.php:118
+msgid "Digest successfully saved."
+msgstr "Resenha salva com sucesso."
+
+#: /Controller/InternalController.php:121
+msgid "An error has ocurred and the digest were not saved."
+msgstr "Um erro ocorreu e a resenha não foi salva."
+
+#: /Controller/InternalController.php:138
+msgid "Digest successfully deleted."
+msgstr "Resenha deletada com sucesso."
+
+#: /Controller/InternalController.php:163;195
+msgid "A chapter with that number already exists."
+msgstr "Um capítulo com esse número já existe."
+
+#: /Controller/InternalController.php:169
+msgid "Chapter successfully created."
+msgstr "Capítulo criado com sucesso."
+
+#: /Controller/InternalController.php:172
+msgid "An error has occurred and the chapter were not created."
+msgstr "Um erro ocorreu e o capítulo não foi criado."
+
+#: /Controller/InternalController.php:202
+msgid "Chapter successfully saved."
+msgstr "Capítulo salvo com sucesso."
+
+#: /Controller/InternalController.php:205
+msgid "An error has occurred and the chapter were not saved."
+msgstr "Um erro ocorreu e o capítulo não foi salvo."
+
+#: /Controller/InternalController.php:221
+msgid "Chapter successfully deleted."
+msgstr "Capítulo deletado com sucesso."
+
+#: /Controller/InternalController.php:240
+msgid "Topic successfully inserted."
+msgstr "Tópico deletado com sucesso."
+
+#: /Controller/InternalController.php:243
+msgid "An error has occurred and the topic were not inserted."
+msgstr "Um erro ocorreu e o tópico não foi inserido."
+
+#: /Controller/InternalController.php:262
+msgid "Topic successfully saved."
+msgstr "Tópico salvo com sucesso."
+
+#: /Controller/InternalController.php:265
+msgid "An error has occurred and the topic were not saved."
+msgstr "Um erro ocorreu e o tópico não foi salvo."
+
+#: /View/Books/index.ctp:4
+#: /View/Digests/index.ctp:4
+#: /View/Elements/navigation.ctp:12
+#: /View/Internal/adddigest.ctp:3
+#: /View/Internal/addtopic.ctp:3
+#: /View/Internal/chapters.ctp:3
+#: /View/Internal/digestgroups.ctp:3
+#: /View/Internal/editchapter.ctp:3
+#: /View/Internal/editdigest.ctp:3
+#: /View/Internal/editdigestgroup.ctp:3
+#: /View/Internal/edittopic.ctp:3
+#: /View/Internal/house.ctp:3
+#: /View/Internal/newchapter.ctp:3
+#: /View/Internal/newdigestgroup.ctp:3
+#: /View/Pages/about.ctp:4
+#: /View/Pages/contact.ctp:4
+#: /View/Pages/home.ctp:4
+#: /View/Users/add.ctp:4
+#: /View/Users/index.ctp:4
+msgid "Home"
+msgstr "Home"
+
+#: /View/Books/index.ctp:5
+msgid "Books"
+msgstr "Livros"
+
+#: /View/Digests/index.ctp:5;50
+#: /View/Elements/internalbar.ctp:33
+#: /View/Elements/navigation.ctp:13
+#: /View/Internal/adddigest.ctp:5
+#: /View/Internal/digestgroups.ctp:5
+#: /View/Internal/editdigest.ctp:5
+#: /View/Internal/editdigestgroup.ctp:5
+#: /View/Internal/newdigestgroup.ctp:5
+msgid "Digests"
+msgstr "Resenhas"
+
+#: /View/Digests/index.ctp:10
+msgid "Filter by"
+msgstr "Filtrar por"
+
+#: /View/Digests/index.ctp:12
+#: /View/Internal/adddigest.ctp:15
+#: /View/Internal/editdigest.ctp:15
+msgid "Category"
+msgstr "Categoria"
+
+#: /View/Digests/index.ctp:13
+msgid "Time"
+msgstr "Data"
+
+#: /View/Digests/index.ctp:21
+msgid "Choose a category"
+msgstr "Escolha uma categoria"
+
+#: /View/Digests/index.ctp:74
+msgid "Created on "
+msgstr "Criado em "
+
+#: /View/Digests/index.ctp:75
+msgid "Last modified on "
+msgstr "Última modificação em "
+
+#: /View/Elements/internalbar.ctp:34
+#: /View/Elements/navigation.ctp:14
+#: /View/Internal/addtopic.ctp:5
+#: /View/Internal/chapters.ctp:5
+#: /View/Internal/editchapter.ctp:5
+#: /View/Internal/edittopic.ctp:5
+#: /View/Internal/newchapter.ctp:5
+msgid "Book"
+msgstr "Livro"
+
+#: /View/Elements/internalbar.ctp:35
+#: /View/Internal/house.ctp:5
+msgid "House"
+msgstr "Casa"
+
+#: /View/Elements/internalbar.ctp:36
+#: /View/Users/add.ctp:6
+#: /View/Users/index.ctp:6;12
+msgid "Users"
+msgstr "Usuários"
+
+#: /View/Elements/internalbar.ctp:40;49
+#: /View/Internal/chapters.ctp:17
+#: /View/Internal/digestgroups.ctp:17
+#: /View/Users/index.ctp:18
+msgid "Actions"
+msgstr "Ações"
+
+#: /View/Elements/internalbar.ctp:43
+#: /View/Internal/digestgroups.ctp:6
+msgid "Groups"
+msgstr "Grupos"
+
+#: /View/Elements/internalbar.ctp:44
+#: /View/Internal/editdigestgroup.ctp:6
+#: /View/Internal/newdigestgroup.ctp:6;13
+msgid "New Group"
+msgstr "Novo Grupo"
+
+#: /View/Elements/internalbar.ctp:52
+#: /View/Internal/chapters.ctp:6;11
+msgid "Chapters"
+msgstr "Capítulos"
+
+#: /View/Elements/internalbar.ctp:53
+#: /View/Internal/editchapter.ctp:6
+#: /View/Internal/newchapter.ctp:6;13
+msgid "New Chapter"
+msgstr "Novo Capítulo"
+
+#: /View/Elements/navigation.ctp:15
+#: /View/Internal/adddigest.ctp:4
+#: /View/Internal/addtopic.ctp:4
+#: /View/Internal/chapters.ctp:4
+#: /View/Internal/digestgroups.ctp:4
+#: /View/Internal/editchapter.ctp:4
+#: /View/Internal/editdigest.ctp:4
+#: /View/Internal/editdigestgroup.ctp:4
+#: /View/Internal/edittopic.ctp:4
+#: /View/Internal/house.ctp:4
+#: /View/Internal/newchapter.ctp:4
+#: /View/Internal/newdigestgroup.ctp:4
+#: /View/Users/add.ctp:5
+#: /View/Users/index.ctp:5
+msgid "Internal"
+msgstr "Interno"
+
+#: /View/Elements/navigation.ctp:16
+#: /View/Pages/contact.ctp:5;7
+msgid "Contact"
+msgstr "Contato"
+
+#: /View/Elements/usersbar.ctp:12
+msgid "List"
+msgstr "Lista"
+
+#: /View/Elements/usersbar.ctp:13
+msgid "New"
+msgstr "Novo"
+
+#: /View/Internal/adddigest.ctp:6
+#: /View/Internal/editdigest.ctp:6
+msgid "Add Digest"
+msgstr "Adicionar Resenha"
+
+#: /View/Internal/adddigest.ctp:12
+#: /View/Internal/editdigest.ctp:12
+msgid "New Digest"
+msgstr "Nova Resenha"
+
+#: /View/Internal/adddigest.ctp:18
+#: /View/Internal/addtopic.ctp:18
+#: /View/Internal/chapters.ctp:16
+#: /View/Internal/digestgroups.ctp:16
+#: /View/Internal/editchapter.ctp:19
+#: /View/Internal/editdigest.ctp:18
+#: /View/Internal/editdigestgroup.ctp:16
+#: /View/Internal/edittopic.ctp:18
+#: /View/Internal/newchapter.ctp:19
+#: /View/Internal/newdigestgroup.ctp:16
+msgid "Title"
+msgstr "Título"
+
+#: /View/Internal/adddigest.ctp:23
+#: /View/Internal/addtopic.ctp:23
+#: /View/Internal/editdigest.ctp:23
+#: /View/Internal/edittopic.ctp:23
+msgid "Text"
+msgstr "Texto"
+
+#: /View/Internal/adddigest.ctp:27
+#: /View/Internal/addtopic.ctp:27
+#: /View/Internal/editchapter.ctp:31
+#: /View/Internal/editdigest.ctp:27
+#: /View/Internal/editdigestgroup.ctp:25
+#: /View/Internal/edittopic.ctp:27
+#: /View/Internal/newchapter.ctp:31
+#: /View/Internal/newdigestgroup.ctp:25
+msgid "Save"
+msgstr "Salvar"
+
+#: /View/Internal/addtopic.ctp:6
+msgid "Add Topic"
+msgstr "Adicionar Tópico"
+
+#: /View/Internal/addtopic.ctp:12
+msgid "New Topic"
+msgstr "Novo Tópico"
+
+#: /View/Internal/addtopic.ctp:15
+#: /View/Internal/chapters.ctp:15
+#: /View/Internal/editchapter.ctp:16
+#: /View/Internal/edittopic.ctp:15
+#: /View/Internal/newchapter.ctp:16
+msgid "Number"
+msgstr "Número"
+
+#: /View/Internal/chapters.ctp:26
+#: /View/Internal/digestgroups.ctp:26
+msgid "Edit"
+msgstr "Editar"
+
+#: /View/Internal/chapters.ctp:27
+#: /View/Internal/digestgroups.ctp:27
+#: /View/Users/index.ctp:26
+msgid "Remove"
+msgstr "Remover"
+
+#: /View/Internal/digestgroups.ctp:11
+msgid "Digest Groups"
+msgstr "Grupos de Resenha"
+
+#: /View/Internal/digestgroups.ctp:15
+msgid "ID"
+msgstr "ID"
+
+#: /View/Internal/editchapter.ctp:13
+msgid "Edit Chapter"
+msgstr "Editar Capítulo"
+
+#: /View/Internal/editchapter.ctp:22
+#: /View/Internal/newchapter.ctp:22
+msgid "Reference"
+msgstr "Referência"
+
+#: /View/Internal/editchapter.ctp:27
+#: /View/Internal/editdigestgroup.ctp:21
+#: /View/Internal/newchapter.ctp:27
+#: /View/Internal/newdigestgroup.ctp:21
+msgid "Description"
+msgstr "Descrição"
+
+#: /View/Internal/editdigestgroup.ctp:13
+msgid "Edit Group"
+msgstr "Editar Grupo"
+
+#: /View/Internal/edittopic.ctp:6;12
+msgid "Edit Topic"
+msgstr "Editar Tópico"
+
+#: /View/Pages/about.ctp:5
+msgid "About"
+msgstr "Sobre"
+
+#: /View/Pages/about.ctp:7
+#: /View/Pages/home.ctp:6
+msgid "Page under construction"
+msgstr "Página em construção"
+
+#: /View/Users/add.ctp:7
+msgid "New User"
+msgstr "Novo Usuário"
+
+#: /View/Users/add.ctp:14
+msgid "Create User"
+msgstr "Criar Usuário"
+
+#: /View/Users/add.ctp:18
+#: /View/Users/login.ctp:9
+msgid "User"
+msgstr "Usuário"
+
+#: /View/Users/add.ctp:18
+msgid "Insert a username."
+msgstr "Insira um nome de usuário."
+
+#: /View/Users/add.ctp:21
+#: /View/Users/login.ctp:12
+msgid "Password"
+msgstr "Senha"
+
+#: /View/Users/add.ctp:21
+msgid "Insert a password."
+msgstr "Insira uma senha."
+
+#: /View/Users/add.ctp:25
+msgid "Create"
+msgstr "Criar"
+
+#: /View/Users/index.ctp:16
+msgid "Username"
+msgstr "Nome de usuário"
+
+#: /View/Users/index.ctp:17
+msgid "Type"
+msgstr "Tipo"
+
+#: /View/Users/login.ctp:7
+msgid "Login"
+msgstr "Login"
+
+#: /View/Users/login.ctp:9
+msgid "Insert your username."
+msgstr "Insira seu nome de usuário."
+
+#: /View/Users/login.ctp:12
+msgid "Insert your password."
+msgstr "Insira sua senha."
+
+#: /View/Users/login.ctp:15
+msgid "Enter"
+msgstr "Entrar"
+
+#: /View/Errors/error400.ctp:21
+#: /View/Errors/error500.ctp:21
+msgid "Error"
+msgstr "Erro"
+
+#: /View/Errors/error400.ctp:23
+msgid "The requested address %s was not found on this server."
+msgstr "O endereço requisitado %s não foi encontrado neste servidor."
+
+#: /View/Errors/error500.ctp:22
+msgid "An Internal Error Has Occurred."
+msgstr "Um erro interno ocorreu."
+
+#: /View/Layouts/default.ctp:19
+#: /View/Layouts/error.ctp:19
+msgid "CakePHP: the rapid development php framework"
+msgstr "CakePHP: the rapid development php framework"
+
+#: /webroot/test.php:93
+msgid "Debug setting does not allow access to this url."
+msgstr "Debug setting does not allow access to this url."
+
+#: /Controller/AppController.php:59
+msgid "You are not allowed to access that area."
+msgstr "Não é permitido a você o acesso àquela área."
+
+#: /View/Pages/home.ctp:6
+msgid "Welcome to my personal website!"
+msgstr "Bem vindo ao meu site pessoal!"
+
+#: /View/Pages/home.ctp:7
+msgid "For now all contents are private, but soon there will be some public content."
+msgstr "Por enquanto todo o conteúdo é privado, mas em breve haverá algum conteúdo público."
