@@ -88,6 +88,27 @@ mysql -u root -p < gama_assignment1.sql
 
 ```
 
+* Configure o acesso ao banco de dados criando o arquivo gama_assignment1/app/Config/database.php com o seguinte conteúdo: (obs: lembre-se de substituir a senha!)
+
+```
+<?php
+
+class DATABASE_CONFIG {
+
+	public $default = array(
+		'datasource' => 'Database/Mysql',
+		'persistent' => false,
+		'host' => 'localhost',
+		'login' => 'root',
+		'password' => 'sua_senha',
+		'database' => 'gama_assignment1',
+		'prefix' => '',
+		'encoding' => 'utf8'
+	);
+}
+
+```
+
 * Reinicie o Apache, e tudo deve funcionar corretamente.
 
 ```
