@@ -21,6 +21,7 @@ sudo apt-get install php5.6 php5.6-mysql
 * Ative os módulos rewrite e php5.6 no Apache:
 
 ```
+sudo apt-get install libapache2-mod-php5.6
 a2enmod rewrite php5.6
 
 ```
