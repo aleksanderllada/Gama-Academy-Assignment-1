@@ -25,6 +25,15 @@ a2enmod rewrite php5.6
 
 ```
 
+* Verifique se a versão do PHP está correta:
+
+```
+php -v
+
+PHP 5.6.30-7+deb.sury.org~xenial+1 (cli) 
+
+```
+
 * Crie um arquivo de configuração específico para o domínio do site em /etc/apache2/sites-available/dominio.com.conf ou utilize o arquivo default /etc/apache2/sites-available/000-default.conf caso o site não possua um domínio configurado, com o seguinte conteúdo: (obs: substitua o diretório do DocumentRoot e Directory pelo diretório onde estão os arquivos deste projeto)
 
 ```
