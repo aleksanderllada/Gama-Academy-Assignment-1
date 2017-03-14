@@ -4957,6 +4957,28 @@ textarea.input-group-sm > .input-group-btn > .btn {
   color: #ffffff;
 }
 
+
+/*custom ----------------------------------------------*/
+.navbar-custom {
+  background-color: #ff3859;
+  border-color: #ff3859;
+}
+.search_custom{
+  padding-top: 10px; float: left; margin-left: 10%; width: 40%;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: #ff4c6a;
+}
+
+
+
+
+/*end custom -------------------------------------------*/
 .navbar-green {
   background-color: #16A916;
   border-color: #098C09;

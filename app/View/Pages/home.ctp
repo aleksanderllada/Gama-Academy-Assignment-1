@@ -1,10 +1,40 @@
 <!DOCTYPE html>
 <html>
-	<ol class="breadcrumb">
-		<li><?php echo $this->Html->link(__('Home'), array('controller' => 'pages')); ?></li>
-	</ol>
 	
-	<div class="row">
+	<style type="text/css">
+
+		.btn_custom{
+			background: #414042 !important;
+			color:#ffffff !important; 
+			margin-left: 2% !important; 
+			margin-top: -2% !important;
+			padding-top: 3px !important;
+		}
+
+	</style>
+	<div style="float:left">
+		<span style="color:#414042">Clube do desconto</span>
+	</div>
+
+	<div>
+		<span style="margin-left:50%;">Cadastre-se e fique por dentro</span>
+	</div>
+	<div>
+		<span style="margin-left:60.5%;">dos descontos que você pode ter!</span>
+		<input type="submit" text class="btn btn-primary btn_custom" value="Cadastr-se aqui!" />
+	</div>
+
+	<br />
+	<br />
+
+
+	<!-- <div style="color:#414042; float:left;  width: 20%"></div>
+	<div style="float:right"> -->
+	<!-- <ol class="breadcrumb">
+		<li><?php echo $this->Html->link(__('Home'), array('controller' => 'pages')); ?></li>
+	</ol> -->
+	
+	<!-- <div class="row">
 		<div class="col-md-12">
 			<div class="framed">
 				<legend> Bem vindo ao nosso site, equipe Let's Rock! </legend>
@@ -18,5 +48,5 @@
 				<p> Este site encontra-se hospedado na DigitalOcean. Para instalar o Analytics, <b>precisamos de um domínio.</b> Pensem em um!</p>
 			</div>
 		</div>
-	</div>
+	</div> -->
 </html>
