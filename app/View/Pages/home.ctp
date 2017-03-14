@@ -110,8 +110,9 @@
 		box-shadow: 0px 1px 5px 0px rgba(47, 79, 79, 0.8);
 	}
 	
-	.thumbnail-img {
-		position: absolute;
+	.thumbnail-custom-img {
+		background-image: url("img/slide2_fundo.png");
+		background-repeat: round;
 	}
 	
 	@media(min-width: 1200px) {
@@ -123,6 +124,7 @@
 	.thumbnail-footer {
 		text-align: center;
 		margin-top: 30px;
+		margin-bottom: 20px;
 	}
 	
 	.thumbnail-footer span {
@@ -184,8 +186,7 @@
 		</div>
 	</div>
 </div>
-<img src="img/slide2_fundo.png" alt="" class="thumbnail-img img-responsive">
-<div class="row">
+<div class="row thumbnail-custom-img">
 	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 thumbnail-custom">
 		<div>
 			<img class="img-circle" src="img/texto1_360.png"></img>
