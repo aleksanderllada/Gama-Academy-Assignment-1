@@ -50,8 +50,8 @@
 
     <?php echo $this->Element('navigation'); ?>
 
-    <div class="container">
-
+    <div class="container-fluid">
+      
 			<?php echo $this->Session->flash(); ?>
 
 			<?php echo $this->fetch('content'); ?>

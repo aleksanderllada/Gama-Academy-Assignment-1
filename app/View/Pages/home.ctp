@@ -4,34 +4,100 @@
 	<style type="text/css">
 
 		.btn_custom{
-			background: #414042 !important;
-			color:#ffffff !important; 
-			margin-left: 2% !important; 
-			margin-top: -2% !important;
-			padding-top: 3px !important;
+			background: #808080;
+			color: #ffffff; 
+			max-height: 35px; 
+			max-width: 140px;
+			margin-top: 0.2%;
 		}
+		.p_custom{
+			color: #808080;
+			margin-top: 0px;
+			margin-right: 0px;
+			margin-bottom: 0px;
+			margin-left: 0px;
+		}
+
+		.first-image{
+			position: relative;
+			width: 100%;
+			max-height: 100px;
+		}
+		.child-first-image{
+			position: absolute; 
+			width: 30%;
+			top: 2.5%;
+			left: 32.5%;
+		}
+		.second-image{
+			position: relative;
+			width: 100%; 
+			max-height: 100px;
+		}
+		.text-img-foot{
+			position: absolute;
+			margin-top: -5.5%;
+			margin-left: 35%;
+			color: #ffffff;
+		}
+
 
 	</style>
 	<br />
-	<br />
-	<div style="float:left">
-		<span style="color:#414042">Clube do desconto</span>
+
+	<div class="row">
+		
+		<div class="col-md-3" style="margin-left:14%"><span style="color:#808080">Bem vindo ao <i><strong>Clube do desconto!</strong></i></span></div>
+	
+		<div class="col-md-2 col-md-offset-5" style="margin-left:14%">
+			<p class="p_custom">Cadastre-se e fique por dentro</p>
+			<p class="p_custom" style="padding-top: -5%">dos descontos que você pode ter!</p>
+		</div>
+	
+		<div classs="col-md-2 col-md-offset-2" style="margin-left:17%">
+			<input id="" type="submit" class="btn btn-primary btn_custom" value="Cadastre-se!" />
+		</div>
+
 	</div>
 
-	<div>
-		<span style="margin-left:50%;">Cadastre-se e fique por dentro</span>
-	</div>
-	<div>
-		<span style="margin-left:60.5%;">dos descontos que você pode ter!</span>
-		<input type="submit" text class="btn btn-primary btn_custom" value="Cadastre-se aqui!" />
-	</div>
-
-	<br />
 	<br />
 
+	<div class="row">
+
+		<div class="first-image">
+
+				<?php echo $this->Html->image('slide_fundo.png', array('height' => '100px', 'max-width'=> '100%', 'display' => 'block', 'class' => 'img-responsive')); ?>
+			<div class="child-first-image">
+				<?php echo $this->Html->image('craques_economia.png', array('height' => 'auto', 'max-width'=> '100%', 'display' => 'block', 'class' => 'img-responsive')); ?>
+
+					<div class="col-xs-12 col-md-12" style="position: absolute;">
+						<p class="p_custom" style="margin: 2% 0% 0% 3%">Inscreva-se para receber nossas informações sobre os<strong> melhores </p>
+						<p class="p_custom" style="padding-top: -5%; margin: 2% 0% 0% 3%">benefícios</strong> que você pode ter como <strong>sócio torcedor</strong> do seu
+						<p class="p_custom" style="padding-top: -5%; margin: 2% 0% 0% 3%">time do coração!</p>
+					</div>	
+
+			</div>
+
+			<div class="second-image">
+				<?php echo $this->Html->image('slide2_fundo.png', array('height' => 'auto', 'max-width'=> '100%', 'display' => 'block', 'class' => 'img-responsive')); ?>
+
+					<div class="col-xs-12 col-md-8 text-img-foot">
+						<p>Cadastre-se e fique por dentro</p>
+						<p>dos descontos que você pode ter!</p>
+					</div>
+
+			</div>
+		
+		</div>
+	
+	</div>
+	
+	
 
 	<!-- <div style="color:#414042; float:left;  width: 20%"></div>
 	<div style="float:right"> -->
+	
+
 	<!-- <ol class="breadcrumb">
 		<li><?php echo $this->Html->link(__('Home'), array('controller' => 'pages')); ?></li>
 	</ol> -->
