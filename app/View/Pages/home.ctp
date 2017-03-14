@@ -20,8 +20,8 @@
 		<span style="margin-left:50%;">Cadastre-se e fique por dentro</span>
 	</div>
 	<div>
-		<span style="margin-left:60.5%;">dos descontos que você pode ter!</span>
-		<input type="submit" text class="btn btn-primary btn_custom" value="Cadastr-se aqui!" />
+		<span style="margin-left:60.2%;">dos descontos que você pode ter!</span>
+		<input type="submit" text class="btn btn-primary btn_custom" value="Cadastre-se aqui!" />
 	</div>
 
 	<br />
