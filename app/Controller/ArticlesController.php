@@ -61,7 +61,7 @@ class ArticlesController extends AppController {
 			);
 		}
 		
-		$this->set(compact('articles'));
+		$this->set(compact('articles', 'articleCategories'));
 	}
 	
 	public function articleCategories() {
