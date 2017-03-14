@@ -21,7 +21,7 @@
 	</div>
 	<div>
 		<span style="margin-left:60.5%;">dos descontos que você pode ter!</span>
-		<input type="submit" text class="btn btn-primary btn_custom" value="Cadastr-se aqui!" />
+		<input type="submit" text class="btn btn-primary btn_custom" value="Cadastre-se aqui!" />
 	</div>
 
 	<br />

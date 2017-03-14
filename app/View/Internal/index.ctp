@@ -5,9 +5,6 @@
 	</ol>
 	<div class="row">
 		<?php echo $this->element('internalbar', array('active' => '', 'action' => '')); ?>
-		<div class="col-md-10">
-			
-		</div>
 	</div>
 </div>
 

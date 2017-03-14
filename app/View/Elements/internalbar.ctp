@@ -16,7 +16,7 @@ if($action == 'addarticle') {
 }
 ?>
 
-<div class="col-xs-2 col-sm-2 sidebar-offcanvas" id="sidebar">
+<div class="col-md-2 sidebar-offcanvas" id="sidebar">
 	<div class="framed">
 
 		<legend>Administração</legend>

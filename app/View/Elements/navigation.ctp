@@ -1,4 +1,4 @@
-<div class="navbar navbar-custom" style="position: fixed; top: 1px; left: 1px; right: 1px; z-index:1030;"> <!-- navbar-fixed-top -->
+<div class="navbar navbar-custom navbar-fixed-top"> <!-- style="position: fixed; top: 1px; left: 1px; right: 1px; z-index:1030; -->
 	<div class="container">
 		<div class="navbar-header">
 			<a class="navbar-brand" href="#">

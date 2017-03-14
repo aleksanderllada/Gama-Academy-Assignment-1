@@ -6,7 +6,74 @@
 	</ol>
 	
 	<div class="row">
-		<div class="col-md-2">
+		<div class="col-md-9">
+			<?php if($isMaster): ?>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="framed">
+						<legend>
+							Artigos
+							<?php  echo $this->Html->link(
+							    '<span class="glyphicon glyphicon-plus pull-right"></span>',
+							    array('controller' => 'articles', 'action' => 'addarticle'),
+							    array('escape' => FALSE)
+							); ?>
+						</legend>
+					</div>
+				</div>
+			</div>
+			<?php endif; ?>
+			
+			<?php if(empty($articles)):?>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="framed">
+						<p> No momento não possuímos nenhum conteúdo! :-( </p>
+					</div>
+				</div>
+			</div>
+			<?php endif; ?>
+				
+			<?php foreach($articles as $article):?>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="framed">
+						<legend><?php echo $article['Article']['title']?>
+						<?php if($isMaster): ?>
+						<div class="pull-right">
+							<?php echo $this->Html->link(
+							    '<span class="glyphicon glyphicon-remove"></span>',
+							    array('controller' => 'articles', 'action' => 'deletearticle', $article['Article']['id']),
+							    array('escape' => FALSE, 'confirm' => 'Tem certeza que deseja deletar este artigo? Esta ação é IRREVERSÍVEL!')
+							); ?>
+							<?php  echo $this->Html->link(
+							    '<span class="glyphicon glyphicon-pencil"></span>',
+							    array('controller' => 'articles', 'action' => 'editarticle', $article['Article']['id']),
+							    array('escape' => FALSE)
+							); ?>
+						</div>
+						<?php endif; ?>
+						</legend>
+						<?php echo nl2br($article['Article']['text']); ?>
+						
+						<br><br>
+						<h6>
+							<?php echo 'Escrito por ' . $article['User']['name'] . ' em ' . date('d/m/Y \à\s H:i:s', strtotime($article['Article']['created'])); ?>.
+							<?php echo 'Última modificação em ' . date('d/m/Y \à\s H:i:s', strtotime($article['Article']['modified'])); ?>.
+							<?php echo 'Categoria: '; ?>
+							<?php echo $this->Html->link(
+							    $article['ArticleCategory']['name'],
+							    array('controller' => 'articles', 'action' => 'index', $article['Article']['article_category_id'])
+							); ?>.
+						</h6>
+						<br>
+					</div>
+				</div>
+			</div>
+			<?php endforeach;?>
+		</div>
+		
+		<div class="col-md-3">
 			<div class="framed">
 				<legend>Filtrar por</legend>
 				<div class="btn-group">
@@ -47,57 +114,6 @@
 					</div>
 					<?php echo $this->Form->end(); ?>
 				</div>
-			</div>
-		</div>
-		
-		<div class="col-md-10">
-			<div class="framed">
-				<?php if($isMaster): ?>
-				<legend>
-					Artigos
-					<?php  echo $this->Html->link(
-					    '<span class="glyphicon glyphicon-plus pull-right"></span>',
-					    array('controller' => 'articles', 'action' => 'addarticle'),
-					    array('escape' => FALSE)
-					); ?>
-				</legend>
-				<?php endif; ?>
-				
-				<?php if(empty($articles)):?>
-				<p> No momento não possuímos nenhum conteúdo! :-( </p>
-				<?php endif; ?>
-				
-				<?php foreach($articles as $article):?>
-				<legend><?php echo $article['Article']['title']?>
-				<?php if($isMaster): ?>
-				<div class="pull-right">
-					<?php echo $this->Html->link(
-					    '<span class="glyphicon glyphicon-remove"></span>',
-					    array('controller' => 'articles', 'action' => 'deletearticle', $article['Article']['id']),
-					    array('escape' => FALSE, 'confirm' => 'Tem certeza que deseja deletar este artigo? Esta ação é IRREVERSÍVEL!')
-					); ?>
-					<?php  echo $this->Html->link(
-					    '<span class="glyphicon glyphicon-pencil"></span>',
-					    array('controller' => 'articles', 'action' => 'editarticle', $article['Article']['id']),
-					    array('escape' => FALSE)
-					); ?>
-				</div>
-				<?php endif; ?>
-				</legend>
-				<?php echo nl2br($article['Article']['text']); ?>
-				
-				<br><br>
-				<h6>
-					<?php echo 'Escrito por ' . $article['User']['name'] . ' em ' . date('d/m/Y \à\s H:i:s', strtotime($article['Article']['created'])); ?>.
-					<?php echo 'Última modificação em ' . date('d/m/Y \à\s H:i:s', strtotime($article['Article']['modified'])); ?>.
-					<?php echo 'Categoria: '; ?>
-					<?php echo $this->Html->link(
-					    $article['ArticleCategory']['name'],
-					    array('controller' => 'articles', 'action' => 'index', $article['Article']['article_category_id'])
-					); ?>.
-				</h6>
-				<br>
-				<?php endforeach;?>
 			</div>
 		</div>
 	</div>
