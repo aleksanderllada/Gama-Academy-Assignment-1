@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="navbar-header">
 			<a class="navbar-brand" href="#">
-				<?php echo $this->Html->image('generic-logo.png', array('height' => '25px')); ?>
+				<?php echo $this->Html->image('logo_club_4.png', array('height' => '60px', 'max-width'=> '150px')); ?>
 			</a>
 			<!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 				<span class="icon-bar"></span>
@@ -15,7 +15,7 @@
 			<div><i class=""></i><input type="text" class="form-control" placeholder="Quer desconto de verdade?" style="width:100%;" /></div>
 			
 		</div> -->
-		<div class="collapse navbar-collapse" style="padding-top: 3px; float: right;">
+		<div class="collapse navbar-collapse" style="padding-top: 18px; float: right;">
 			<ul class="nav navbar-nav">
 				<li <?php echo (!empty($this->params['pass'][0]) && $this->params['pass'][0] == 'home') ? 'class="active"' : '' ?>><?php echo $this->Html->link(__('Home'), array('controller' => 'pages', 'action' => 'index'))?></li>
 				<li <?php echo ($this->params['controller'] == 'articles') ? 'class="active"' : '' ?>><?php echo $this->Html->link('Blog', array('controller' => 'articles', 'action' => 'index'))?></li>

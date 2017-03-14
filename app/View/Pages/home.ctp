@@ -12,6 +12,8 @@
 		}
 
 	</style>
+	<br />
+	<br />
 	<div style="float:left">
 		<span style="color:#414042">Clube do desconto</span>
 	</div>
