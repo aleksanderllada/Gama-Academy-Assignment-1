@@ -2,6 +2,10 @@
 <html>
 
 <style type="text/css">
+	body {
+		padding: 40px 0 0 0;
+	}
+	
 	.btn_custom {
 		background: #808080;
 		color: #ffffff;
@@ -183,73 +187,57 @@
 <br />
 
 <div class="row">
-
-	<div class="col-md-3" style="margin-left:14%"><span style="color:#808080">Bem vindo ao <i><strong>Clube do desconto!</strong></i></span></div>
-
-	<div class="col-md-2 col-md-offset-5" style="margin-left:14%">
-		<p class="p_custom">Cadastre-se e fique por dentro</p>
-		<p class="p_custom" style="padding-top: -5%">dos descontos que você pode ter!</p>
-	</div>
-
-	<div classs="col-md-2 col-md-offset-2" style="margin-left:17%">
-		<input id="" type="submit" class="btn btn-primary btn_custom" value="Cadastre-se!" />
-	</div>
-
-</div>
-<div class="container">
-	<div class="row">
-		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 presentation-backgroud">
-			<div class="presentation">
-				<div class="text-center">
-					<img src="img/craques_economia.png" class="img-responsive" alt="">
-				</div>
-				<p class="text-center">
-					<span>
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 presentation-backgroud">
+		<div class="presentation">
+			<div class="text-center">
+				<img src="img/craques_economia.png" class="img-responsive" alt="">
+			</div>
+			<p class="text-center">
+				<span>
 				Inscreva-se para receber nossas informações <br/> sobre os <b>melhores benefícios</b> que você pode ter <br> como <b>sócio torcedor do seu time de
 			coração.
 			</span>
-					</b>
-				</p>
-				<div class="text-center button">
-					<button class="btn">Inscreva-se <br/> agora!</button>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="row thumbnail-custom-img">
-		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 thumbnail-custom">
-			<div>
-				<img class="img-circle" src="img/texto1_360.png"></img>
-			</div>
-			<p>A maioria dos brasileiros já nascem apaixonados por Futebol. Ser <b>Sócio Torcedor</b> é uma das melhores formas de demonstrar
-				amor e apoio ao clube.</p>
-			<button class="btn">Leia mais</button>
-		</div>
-		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 thumbnail-custom">
-			<div>
-				<img class="img-circle" src="img/texto2_360.png"></img>
-			</div>
-			<p>Baixe um <b>e-book grátis</b> com as táticas de jogo utilizadas por grandes técnicos, esta é do Barcelona</b>
+				</b>
 			</p>
-			<button class="btn">Baixe agora</button>
-		</div>
-		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 thumbnail-custom">
-			<div>
-				<img class="img-circle" src="img/texto3_360.png"></img>
-			</div>
-			<p>O <b>Clubedodesconto.com</b> nasceu com intuito de divulgar descontos de verdade para quem é <b>sócio torcedor</b> de
-				coração
-			</p>
-			<button class="btn">Saiba mais</button>
-		</div>
-		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-			<div class="thumbnail-footer">
-				<span>Cadastre-se e fique por dentro dos descontos que você pode ter!</span>
-				<button class="btn">Cadastre-se aqui!</button>
+			<div class="text-center button">
+				<button class="btn">Inscreva-se <br/> agora!</button>
 			</div>
 		</div>
 	</div>
 </div>
+<div class="row thumbnail-custom-img">
+	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 thumbnail-custom">
+		<div>
+			<img class="img-circle" src="img/texto1_360.png"></img>
+		</div>
+		<p>A maioria dos brasileiros já nascem apaixonados por Futebol. Ser <b>Sócio Torcedor</b> é uma das melhores formas de demonstrar
+			amor e apoio ao clube.</p>
+		<button class="btn">Leia mais</button>
+	</div>
+	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 thumbnail-custom">
+		<div>
+			<img class="img-circle" src="img/texto2_360.png"></img>
+		</div>
+		<p>Baixe um <b>e-book grátis</b> com as táticas de jogo utilizadas por grandes técnicos, esta é do Barcelona</b>
+		</p>
+		<button class="btn">Baixe agora</button>
+	</div>
+	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 thumbnail-custom">
+		<div>
+			<img class="img-circle" src="img/texto3_360.png"></img>
+		</div>
+		<p>O <b>Clubedodesconto.com</b> nasceu com intuito de divulgar descontos de verdade para quem é <b>sócio torcedor</b> de coração
+		</p>
+		<button class="btn">Saiba mais</button>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<div class="thumbnail-footer">
+			<span>Cadastre-se e fique por dentro dos descontos que você pode ter!</span>
+			<button class="btn">Cadastre-se aqui!</button>
+		</div>
+	</div>
+</div>
+
 
 
 <!-- <div style="color:#414042; float:left;  width: 20%"></div>
