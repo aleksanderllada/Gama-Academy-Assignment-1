@@ -41,7 +41,7 @@
     <![endif]-->
 
     <style type="text/css">
-    	body{ padding: 75px 0px; background-color: #e9ebee; }
+    	body{ padding: 100px 0px; background-color: #e9ebee; }
     </style>
 
   </head>
