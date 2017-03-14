@@ -71,15 +71,9 @@
 		}
 	}
 	
-	@media(min-width: 815px) {
-		.thumbnail-custom p {
-			min-height: 120px;
-		}
-	}
-	
 	@media(min-width: 895px) {
 		.thumbnail-custom p {
-			min-height: 100px;
+			min-height: 140px;
 		}
 	}
 	
@@ -151,6 +145,32 @@
 		-moz-box-shadow: 0px 1px 5px 0px rgba(255, 255, 255, 0.8);
 		box-shadow: 0px 1px 5px 0px rgba(255, 255, 255, 0.8);
 	}
+	
+	.presentation .img-responsive {
+		display: inline-block;
+		width: calc(50% + 100px);
+	}
+	
+	.presentation p {
+		margin-top: 20px;
+	}
+	
+	.presentation p span {
+		width: 50%;
+		display: inline-block;
+		color: #4a4a4a;
+	}
+	
+	.presentation .button {
+		margin-bottom: 50px;
+		margin-top: 30px;
+	}
+	
+	.presentation .button .btn {
+		width: 150px;
+		color: white;
+		background-color: #ff3859;
+	}
 </style>
 <br />
 
@@ -168,56 +188,57 @@
 	</div>
 
 </div>
-
-<br />
-<div class="row">
-	<div class="first-image">
-
-		<?php echo $this->Html->image('slide_fundo.png', array('height' => '100px', 'max-width'=> '100%', 'display' => 'block', 'class' => 'img-responsive')); ?>
-		<div class="child-first-image">
-			<?php echo $this->Html->image('craques_economia.png', array('height' => 'auto', 'max-width'=> '100%', 'display' => 'block', 'class' => 'img-responsive')); ?>
-
-			<div class="col-xs-12 col-md-12" style="position: absolute;">
-				<p class="p_custom" style="margin: 2% 0% 0% 3%">Inscreva-se para receber nossas informações sobre os<strong> melhores </p>
-						<p class="p_custom" style="padding-top: -5%; margin: 2% 0% 0% 3%">benefícios</strong> que você pode ter como <strong>sócio torcedor</strong>					do seu
-					<p class="p_custom" style="padding-top: -5%; margin: 2% 0% 0% 3%">time do coração!</p>
+<div class="container">
+	<div class="presentation">
+		<div class="text-center">
+			<img src="img/craques_economia.png" class="img-responsive" alt="">
+		</div>
+		<p class="text-center">
+			<span>
+				Inscreva-se para receber nossas informações <br/> sobre os <b>melhores benefícios</b> que você pode ter <br> como <b>sócio torcedor do seu time de
+			coração.
+			</span>
+			</b>
+		</p>
+		<div class="text-center button">
+			<button class="btn">Inscreva-se <br/> agora!</button>
+		</div>
+	</div>
+	<div class="row thumbnail-custom-img">
+		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 thumbnail-custom">
+			<div>
+				<img class="img-circle" src="img/texto1_360.png"></img>
 			</div>
+			<p>A maioria dos brasileiros já nascem apaixonados por Futebol. Ser <b>Sócio Torcedor</b> é uma das melhores formas de demonstrar
+				amor e apoio ao clube.</p>
+			<button class="btn">Leia mais</button>
+		</div>
+		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 thumbnail-custom">
+			<div>
+				<img class="img-circle" src="img/texto2_360.png"></img>
+			</div>
+			<p>Baixe um <b>e-book grátis</b> com as táticas de jogo utilizadas por grandes técnicos, esta é do Barcelona</b>
+			</p>
+			<button class="btn">Baixe agora</button>
+		</div>
+		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 thumbnail-custom">
+			<div>
+				<img class="img-circle" src="img/texto3_360.png"></img>
+			</div>
+			<p>O <b>Clubedodesconto.com</b> nasceu com intuito de divulgar descontos de verdade para quem é <b>sócio torcedor</b> de
+				coração
+			</p>
+			<button class="btn">Saiba mais</button>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="thumbnail-footer">
+				<span>Cadastre-se e fique por dentro dos descontos que você pode ter!</span>
+				<button class="btn">Cadastre-se aqui!</button>
+			</div>
+		</div>
+	</div>
+</div>
 
-		</div>
-	</div>
-</div>
-<div class="row thumbnail-custom-img">
-	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 thumbnail-custom">
-		<div>
-			<img class="img-circle" src="img/texto1_360.png"></img>
-		</div>
-		<p>A maioria dos brasileiros já nascem apaixonados por Futebol. Ser <b>Sócio Torcedor</b> é uma das melhores formas de demonstrar
-			amor e apoio ao clube.</p>
-		<button class="btn">Leia mais</button>
-	</div>
-	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 thumbnail-custom">
-		<div>
-			<img class="img-circle" src="img/texto2_360.png"></img>
-		</div>
-		<p>Baixe um <b>e-book grátis</b> com as táticas de jogo utilizadas por grandes técnicos, esta é do Barcelona</b>
-		</p>
-		<button class="btn">Baixe agora</button>
-	</div>
-	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 thumbnail-custom">
-		<div>
-			<img class="img-circle" src="img/texto3_360.png"></img>
-		</div>
-		<p>O <b>Clubedodesconto.com</b> nasceu com intuito de divulgar descontos de verdade para quem é <b>sócio torcedor</b> de coração
-		</p>
-		<button class="btn">Saiba mais</button>
-	</div>
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-		<div class="thumbnail-footer">
-			<span>Cadastre-se e fique por dentro dos descontos que você pode ter!</span>
-			<button class="btn">Cadastre-se aqui!</button>
-		</div>
-	</div>
-</div>
 
 <!-- <div style="color:#414042; float:left;  width: 20%"></div>
 	<div style="float:right"> -->
