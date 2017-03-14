@@ -146,9 +146,17 @@
 		box-shadow: 0px 1px 5px 0px rgba(255, 255, 255, 0.8);
 	}
 	
+	.presentation-backgroud {
+		background-image: url("img/slide_fundo.png");
+	}
+	
 	.presentation .img-responsive {
 		display: inline-block;
 		width: calc(50% + 100px);
+	}
+	
+	.presentation>div {
+		margin-top: 20px;
 	}
 	
 	.presentation p {
@@ -189,19 +197,23 @@
 
 </div>
 <div class="container">
-	<div class="presentation">
-		<div class="text-center">
-			<img src="img/craques_economia.png" class="img-responsive" alt="">
-		</div>
-		<p class="text-center">
-			<span>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 presentation-backgroud">
+			<div class="presentation">
+				<div class="text-center">
+					<img src="img/craques_economia.png" class="img-responsive" alt="">
+				</div>
+				<p class="text-center">
+					<span>
 				Inscreva-se para receber nossas informações <br/> sobre os <b>melhores benefícios</b> que você pode ter <br> como <b>sócio torcedor do seu time de
 			coração.
 			</span>
-			</b>
-		</p>
-		<div class="text-center button">
-			<button class="btn">Inscreva-se <br/> agora!</button>
+					</b>
+				</p>
+				<div class="text-center button">
+					<button class="btn">Inscreva-se <br/> agora!</button>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="row thumbnail-custom-img">
