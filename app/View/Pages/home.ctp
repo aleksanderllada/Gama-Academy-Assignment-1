@@ -200,7 +200,7 @@
 				</b>
 			</p>
 			<div class="text-center button">
-				<button class="btn">Inscreva-se <br/> agora!</button>
+				<button class="btn" data-toggle="modal" data-target="#imgModal">Inscreva-se <br/> agora!</button>
 			</div>
 		</div>
 	</div>
@@ -233,12 +233,46 @@
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 		<div class="thumbnail-footer">
 			<span>Cadastre-se e fique por dentro dos descontos que você pode ter!</span>
-			<button class="btn">Cadastre-se aqui!</button>
+			<button class="btn" data-toggle="modal" data-target="#imgModal">Cadastre-se aqui!</button>
 		</div>
 	</div>
 </div>
 
-
+<!-- Modal -->
+<div class="modal fade" id="imgModal" tabindex="-1" role="dialog" aria-labelledby="imgModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<?php echo $this->Form->create('Lead', array('url'=>array('controller'=>'register', 'action'=>'add'))); ?>
+			<div class="modal-header" style="background-color: #ff3859; color: #ffffff;">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h3 class="modal-title" id="imgModalLabel">Só mais um pouquinho...</h3>
+				<p>Precisamos dos seus dados para lhe enviar descontos incríveis!</p>
+				<p>Não se preocupe, prometemos não enviar spam!</p>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-md-12">
+						<fieldset>
+							<div class="row">
+								<div class="form-group col-md-6">
+									<?php echo $this->Form->input('name', array('label' => 'Nome', 'class' => 'form-control', 'type' => 'text')); ?>
+								</div>
+								<div class="form-group col-md-6">
+									<?php echo $this->Form->input('email', array('label' => 'E-mail', 'class' => 'form-control', 'type' => 'text')); ?>
+								</div>
+							</div>
+						</fieldset>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+				<?php echo $this->Form->button('Cadastrar', array('type' => 'submit', 'class' => 'btn btn-primary'));?>
+			</div>
+			<?php echo $this->Form->end(); ?>
+		</div>
+	</div>
+</div>
 
 <!-- <div style="color:#414042; float:left;  width: 20%"></div>
 	<div style="float:right"> -->

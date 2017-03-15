@@ -9,8 +9,16 @@
 			<div class="framed">
 				<legend>Sobre</legend>
 				<p>
-				Escreveremos aqui sobre nós!
-				</p>
+				O Clube do Desconto é um blog que surgiu com o intuito de transformar a paixão de 
+				torcedores e sócios de clubes de futebol em descontos e benefícios que vão muito além do estádio!</p>
+
+                <p>Toda semana vamos divulgar lojas e parceiros que 
+                oferecem benefícios exclusivos para você que é amante do futebol, 
+                afiliado a algum time e ainda não sabe de todos os descontos que você tem direito. </p>
+
+				<p>Ser um torcedor pode te render mais do que você imagina!</p>
+				
+				<p>Vem com a gente!</p>
 			</div>
 		</div>
 	</div>

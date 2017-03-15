@@ -4,6 +4,15 @@ if($active == 'articles') {
 	$articles .= ' active';
 }
 
+$leads = 'list-group-item';
+if($active == 'leads') {
+	$leads .= ' active';
+}
+
+if (!isset($action)) {
+	$action="";
+}
+
 $newarticle = 'list-group-item';
 $articlecategories = 'list-group-item';
 $newarticlecategory = 'list-group-item';
@@ -22,6 +31,7 @@ if($action == 'addarticle') {
 		<legend>Administração</legend>
 		<div class="list-group">
 			<?php echo $this->Html->link('Blog', array('controller' => 'articles', 'action' => 'articlecategories'), array('class' => $articles))?>
+			<?php echo $this->Html->link('Leads', array('controller' => 'register', 'action' => 'index'), array('class' => $leads))?>
 			<?php echo $this->Html->link('Usuários', array('controller' => 'users', 'action' => 'index'), array('class' => 'list-group-item'));?>
 		</div>
 		
