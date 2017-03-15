@@ -32,6 +32,7 @@
 
 		<!-- Latest compiled and minified CSS -->
 		<?php echo $this->Html->css('bootstrap'); ?>
+		<?php echo $this->Html->css('blog'); ?>
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
