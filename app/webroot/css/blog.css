@@ -27,6 +27,15 @@
   line-height: 46px;
   margin-bottom: 30px;
 }
+
+.blog img .trans-scale {
+  transform: 0.3s;
+}
+
+.blog img .trans-scale:hover{
+  transform: scale(1.1);
+}
+
 .blog .img-primary {
   margin: 25px 0;
 }
