@@ -212,23 +212,23 @@
 		</div>
 		<p>A maioria dos brasileiros já nascem apaixonados por Futebol. Ser <b>Sócio Torcedor</b> é uma das melhores formas de demonstrar
 			amor e apoio ao clube.</p>
-		<button class="btn">Leia mais</button>
+		<a style="background-color:#F0F0F0" class="btn" href="http://clubedodesconto.club/articles#8-benefits" >Leia mais</a>
 	</div>
 	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 thumbnail-custom">
 		<div>
 			<img class="img-circle" src="img/texto2_360.png"></img>
 		</div>
-		<p>Baixe um <b>e-book grátis</b> com as táticas de jogo utilizadas por grandes técnicos, esta é do Barcelona</b>
+		<p>Baixe um <b>e-book grátis</b> com os princípios táticos do futebol e um guia de táticas de sucesso de diversos times</b>
 		</p>
-		<button class="btn">Baixe agora</button>
+		<a style="background-color:#F0F0F0" href="" class="btn">Baixe agora</a>
 	</div>
 	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 thumbnail-custom">
 		<div>
 			<img class="img-circle" src="img/texto3_360.png"></img>
 		</div>
-		<p>O <b>Clubedodesconto.com</b> nasceu com intuito de divulgar descontos de verdade para quem é <b>sócio torcedor</b> de coração
+		<p>O <b>Clubedodesconto.club</b> nasceu com intuito de divulgar descontos de verdade para quem é <b>sócio torcedor</b> de coração
 		</p>
-		<button class="btn">Saiba mais</button>
+		<a style="background-color:#F0F0F0" href="" class="btn">Saiba mais</a>
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 		<div class="thumbnail-footer">
