@@ -93,6 +93,46 @@
 		}
 	}
 	
+	@media (max-width: 768px) {
+		.presentation-backgroud {
+			background-image: url(img/slide1_xs.png);
+		}
+		.thumbnail-custom-img {
+			background-image: url(img/slide2_xs.png);
+			background-repeat: round;
+		}
+	}
+	
+	@media (max-width: 992px) {
+		.presentation-backgroud {
+			background-image: url(img/slide1_sm.png);
+		}
+		.thumbnail-custom-img {
+			background-image: url(img/slide2_sm.png);
+			background-repeat: round;
+		}
+	}
+	
+	@media (max-width: 1200px) {
+		.presentation-backgroud {
+			background-image: url(img/slide1_md.png);
+		}
+		.thumbnail-custom-img {
+			background-image: url(img/slide2_md.png);
+			background-repeat: round;
+		}
+	}
+	
+	@media (min-width: 1200px) {
+		.presentation-backgroud {
+			background-image: url(img/slide1_lg.png);
+		}
+		.thumbnail-custom-img {
+			background-image: url(img/slide2_lg.png);
+			background-repeat: round;
+		}
+	}
+	
 	.thumbnail-custom .btn {
 		border: 1px solid #2F4F4F;
 		color: #2F4F4F;
@@ -106,11 +146,6 @@
 		-webkit-box-shadow: 0px 1px 5px 0px rgba(47, 79, 79, 0.8);
 		-moz-box-shadow: 0px 1px 5px 0px rgba(47, 79, 79, 0.8);
 		box-shadow: 0px 1px 5px 0px rgba(47, 79, 79, 0.8);
-	}
-	
-	.thumbnail-custom-img {
-		background-image: url("img/slide2_fundo.png");
-		background-repeat: round;
 	}
 	
 	@media(min-width: 1200px) {
@@ -148,10 +183,6 @@
 		-webkit-box-shadow: 0px 1px 5px 0px rgba(255, 255, 255, 0.8);
 		-moz-box-shadow: 0px 1px 5px 0px rgba(255, 255, 255, 0.8);
 		box-shadow: 0px 1px 5px 0px rgba(255, 255, 255, 0.8);
-	}
-	
-	.presentation-backgroud {
-		background-image: url("img/slide_fundo.png");
 	}
 	
 	.presentation .img-responsive {
@@ -212,7 +243,7 @@
 		</div>
 		<p>A maioria dos brasileiros já nascem apaixonados por Futebol. Ser <b>Sócio Torcedor</b> é uma das melhores formas de demonstrar
 			amor e apoio ao clube.</p>
-		<a style="background-color:#F0F0F0" class="btn" href="http://clubedodesconto.club/articles#8-benefits" >Leia mais</a>
+		<a style="background-color:#F0F0F0" class="btn" href="http://clubedodesconto.club/articles#8-benefits">Leia mais</a>
 	</div>
 	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 thumbnail-custom">
 		<div>
@@ -226,7 +257,8 @@
 		<div>
 			<img class="img-circle" src="img/texto3_360.png"></img>
 		</div>
-		<p>O <b>Clubedodesconto.club</b> nasceu com intuito de divulgar descontos de verdade para quem é <b>sócio torcedor</b> de coração
+		<p>O <b>Clubedodesconto.club</b> nasceu com intuito de divulgar descontos de verdade para quem é <b>sócio torcedor</b> de
+			coração
 		</p>
 		<a style="background-color:#F0F0F0" href="" class="btn">Saiba mais</a>
 	</div>
